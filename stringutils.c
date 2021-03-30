@@ -18,7 +18,7 @@
 // Some Of This Split String Is Not Made Fully By Me I Had To Look At Stack Overflow !
 char **split_string(int *spaces_string, char *msg, char *delim)
 {
-    char **res;
+    char **res = malloc(999);
     char str[999];
     strcpy(str, msg);
     char *p = strtok(str, delim);
@@ -34,4 +34,5 @@ char **split_string(int *spaces_string, char *msg, char *delim)
     }
     res = realloc (res, sizeof (char*) * (*spaces_string+1));
     res[*spaces_string] = 0;
+    return res;
 }
