@@ -1,5 +1,5 @@
 /*
-  Made By Clever™#0948
+  Made By CleverDev#0001
   ---------------------
   Very UseFul Random Utils
   - Random_num | Get A Random Number From A Range A and B !
