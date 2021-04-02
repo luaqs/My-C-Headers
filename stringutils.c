@@ -8,7 +8,7 @@
     ---------------------------------
     -Works Fully ! 					-
     -Include It In Your Projects !	-
-    - Created By Clever™#0948 		-
+    - Created By CleverDev#0001     -
     ---------------------------------
 */
 #include <stdio.h>
